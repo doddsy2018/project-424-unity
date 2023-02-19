@@ -3,6 +3,28 @@ Simulation of the PERRINN 424 electric hypercar in Unity using Vehicle Physics P
 
 [More information on Project 424](https://discover.perrinn.com/project-424/424-unity-simulation)
 
+ ---
+
+## Rear View Mirrors
+
+Added rear view mirrors POC
+
+[![Added rear view mirrors POC](https://i9.ytimg.com/vi/AJdJjRp_0JQ/mq1.jpg?sqp=CITLyJ8G-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGFogSShyMA8%3D&rs=AOn4CLBnxTsYVUKsiMeXuEmx-gYfyzbmJA&retry=5)](https://youtu.be/AJdJjRp_0JQ)
+
+Added rear view mirror capability by adding 3 new carmera views.  (Hood, Left Mirror and Right Mirror).  Works on 3 monitor setup with the mirror monitors placed to the left and right of the main screen.  All monitor are connected to graphics card via DV.  The mirrors are independently rendered cameras so all details in scene is visible.
+
+### Why Do This?
+- Most games that render mirrors only show them in cockpit view,  and not all view artifacts are rendered.
+- Usually require wider FOV to view in game rendered mirrors (Triple monitors)
+- Wanted to put out a POC to demostrate the technique and hopefully more games will incorporate this feature in future.
+
+### Keyboard Shorcuts
+
+- TAB = Change between main camera to hood camera
+- F - Flip mirrors left to right
+
+---
+
 ## Videos
 
 A couple of laps in Nordschleife:
